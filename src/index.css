@@ -63,8 +63,6 @@
 
 .dream-travel-container {
   height: 100vh;
-  background: url("/your-image-path/41ea987a-ff69-49b9-be80-f812116688dc.png")
-    no-repeat center/cover;
   position: relative;
   color: white;
 }
@@ -202,6 +200,7 @@
   padding: 40px 20px;
   text-align: center;
   color: #bbb;
+  width: 100%;
 }
 
 .footer-nav,
