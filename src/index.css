@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-/* HEADER */
 .header {
   position: absolute;
   top: 0;
@@ -62,7 +61,6 @@
   cursor: pointer;
 }
 
-/* HERO */
 .dream-travel-container {
   height: 100vh;
   background: url("/your-image-path/41ea987a-ff69-49b9-be80-f812116688dc.png")
@@ -94,7 +92,6 @@
   margin-bottom: 30px;
 }
 
-/* FORM */
 .form-container {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 20px;
@@ -132,7 +129,6 @@
   background-color: #c1000d;
 }
 
-/* TOURS & HOTELS */
 .hot-tours,
 .popular-hotels,
 .news-section,
@@ -185,7 +181,6 @@
   object-fit: cover;
 }
 
-/* REVIEWS */
 .reviews-grid {
   display: flex;
   flex-wrap: wrap;
@@ -202,7 +197,6 @@
   text-align: left;
 }
 
-/* FOOTER */
 .footer {
   background-color: #111;
   padding: 40px 20px;
@@ -230,7 +224,6 @@
   color: #fff;
 }
 
-/* АДАПТАЦИЯ */
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
