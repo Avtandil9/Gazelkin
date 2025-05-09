@@ -11,7 +11,7 @@ function Header() {
           <a href="https://www.instagram.com/@vietnamtravelaway ">
             ПОДБОР ТУРА
           </a>
-          <a href="#">ГОРЯЩИЕ ТУРЫ</a>
+          <a href="#contact">ГОРЯЩИЕ ТУРЫ</a>
           <a href="#">СТРАНЫ</a>
           <a href="#about">ОТЕЛИ</a>
         </nav>

@@ -22,51 +22,53 @@ import Image19 from "../assets/img/Bassein.jpeg";
 function Main() {
   return (
     <main>
-      <section className="hot-tours">
-        <h2>Горящие туры</h2>
-        <p className="subtitle">Поймайте момент</p>
-        <div className="tour-list">
-          <div className="tour-card">
-            <img src={Image1} alt="Вена" />
-            <div className="tour-info">
-              <h3>Вена</h3>
-              <p>Австрия</p>
-              <span>12–18 июля</span>
+      <section id="contact">
+        <section className="hot-tours">
+          <h2>Горящие туры</h2>
+          <p className="subtitle">Поймайте момент</p>
+          <div className="tour-list">
+            <div className="tour-card">
+              <img src={Image1} alt="Вена" />
+              <div className="tour-info">
+                <h3>Вена</h3>
+                <p>Австрия</p>
+                <span>12–18 июля</span>
+              </div>
+            </div>
+            <div className="tour-card">
+              <img src={Image2} alt="Каппадокия" />
+              <div className="tour-info">
+                <h3>Каппадокия</h3>
+                <p>Турция</p>
+                <span>5–11 июня</span>
+              </div>
+            </div>
+            <div className="tour-card">
+              <img src={Image3} alt="Рим" />
+              <div className="tour-info">
+                <h3>Рим</h3>
+                <p>Италия</p>
+                <span>20–27 июня</span>
+              </div>
+            </div>
+            <div className="tour-card">
+              <img src={Image4} alt="Дубай" />
+              <div className="tour-info">
+                <h3>Дубай</h3>
+                <p>ОАЭ</p>
+                <span>13–19 июля</span>
+              </div>
+            </div>
+            <div className="tour-card">
+              <img src={Image5} alt="Флоренция" />
+              <div className="tour-info">
+                <h3>Флоренция</h3>
+                <p>Италия</p>
+                <span>7–14 августа</span>
+              </div>
             </div>
           </div>
-          <div className="tour-card">
-            <img src={Image2} alt="Каппадокия" />
-            <div className="tour-info">
-              <h3>Каппадокия</h3>
-              <p>Турция</p>
-              <span>5–11 июня</span>
-            </div>
-          </div>
-          <div className="tour-card">
-            <img src={Image3} alt="Рим" />
-            <div className="tour-info">
-              <h3>Рим</h3>
-              <p>Италия</p>
-              <span>20–27 июня</span>
-            </div>
-          </div>
-          <div className="tour-card">
-            <img src={Image4} alt="Дубай" />
-            <div className="tour-info">
-              <h3>Дубай</h3>
-              <p>ОАЭ</p>
-              <span>13–19 июля</span>
-            </div>
-          </div>
-          <div className="tour-card">
-            <img src={Image5} alt="Флоренция" />
-            <div className="tour-info">
-              <h3>Флоренция</h3>
-              <p>Италия</p>
-              <span>7–14 августа</span>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
       <section id="about">
         <section className="popular-hotels">
