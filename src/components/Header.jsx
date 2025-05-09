@@ -13,7 +13,7 @@ function Header() {
           </a>
           <a href="#">ГОРЯЩИЕ ТУРЫ</a>
           <a href="#">СТРАНЫ</a>
-          <a href="#">ОТЕЛИ</a>
+          <a href="#about">ОТЕЛИ</a>
         </nav>
         <div className="header-actions">
           <a href="tel:+996707986545" className="phone-icon">

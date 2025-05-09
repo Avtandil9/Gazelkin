@@ -68,44 +68,46 @@ function Main() {
           </div>
         </div>
       </section>
-      <section className="popular-hotels">
-        <h2>Популярные отели</h2>
-        <p className="subtitle">Уют и роскошь в лучших отелях мира</p>
-        <div className="hotel-list">
-          <div className="hotel-card">
-            <img src={Image6} alt="Marquis" />
-            <div className="hotel-info">
-              <h3>MARQUIS</h3>
+      <section id="about">
+        <section className="popular-hotels">
+          <h2>Популярные отели</h2>
+          <p className="subtitle">Уют и роскошь в лучших отелях мира</p>
+          <div className="hotel-list">
+            <div className="hotel-card">
+              <img src={Image6} alt="Marquis" />
+              <div className="hotel-info">
+                <h3>MARQUIS</h3>
+              </div>
+            </div>
+            <div className="hotel-card">
+              <img src={Image7} alt="Ritz-Carlton" />
+              <div className="hotel-info">
+                <h3>RITZ-CARLTON</h3>
+                <p>отдых класса люкс</p>
+              </div>
+            </div>
+            <div className="hotel-card">
+              <img src={Image8} alt="Villa Flori Como" />
+              <div className="hotel-info">
+                <h3>VILLA FLORI COMO</h3>
+                <p>роскошь в итальянском стиле</p>
+              </div>
+            </div>
+            <div className="hotel-card">
+              <img src={Image9} alt="Ikos Dassia" />
+              <div className="hotel-info">
+                <h3>IKOS DASSIA</h3>
+                <p>улётная атмосфера</p>
+              </div>
+            </div>
+            <div className="hotel-card">
+              <img src={Image10} alt="JW Marriott" />
+              <div className="hotel-info">
+                <h3>JW MARRIOTT</h3>
+              </div>
             </div>
           </div>
-          <div className="hotel-card">
-            <img src={Image7} alt="Ritz-Carlton" />
-            <div className="hotel-info">
-              <h3>RITZ-CARLTON</h3>
-              <p>отдых класса люкс</p>
-            </div>
-          </div>
-          <div className="hotel-card">
-            <img src={Image8} alt="Villa Flori Como" />
-            <div className="hotel-info">
-              <h3>VILLA FLORI COMO</h3>
-              <p>роскошь в итальянском стиле</p>
-            </div>
-          </div>
-          <div className="hotel-card">
-            <img src={Image9} alt="Ikos Dassia" />
-            <div className="hotel-info">
-              <h3>IKOS DASSIA</h3>
-              <p>улётная атмосфера</p>
-            </div>
-          </div>
-          <div className="hotel-card">
-            <img src={Image10} alt="JW Marriott" />
-            <div className="hotel-info">
-              <h3>JW MARRIOTT</h3>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
       <div className="desert-section">
         <div className="form-container">
